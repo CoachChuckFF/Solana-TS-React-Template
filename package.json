@@ -1,0 +1,67 @@
+{
+    "name": "excal-sol-wallet",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@metaplex/js": "^4.12.0",
+        "@project-serum/anchor": "^0.25.0",
+        "@testing-library/jest-dom": "^5.16.4",
+        "@testing-library/react": "^13.3.0",
+        "@testing-library/user-event": "^13.5.0",
+        "@types/jest": "^27.5.2",
+        "@types/node": "^16.11.43",
+        "@types/react": "^18.0.14",
+        "@types/react-dom": "^18.0.5",
+        "bs58": "^5.0.0",
+        "crypto-js": "^4.1.1",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-scripts": "5.0.1",
+        "typescript": "^4.7.4",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+        "start": "react-app-rewired  start",
+        "build": "INLINE_RUNTIME_CHUNK=false react-app-rewired build",
+        "test": "react-app-rewired  test",
+        "eject": "react-app-rewired  eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@types/chrome": "^0.0.191",
+        "@types/crypto-js": "^4.1.1",
+        "assert": "^2.0.0",
+        "buffer": "^6.0.3",
+        "crypto-browserify": "^3.12.0",
+        "https-browserify": "^1.0.0",
+        "os-browserify": "^0.3.0",
+        "process": "^0.11.10",
+        "react-app-rewired": "^2.2.1",
+        "stream-browserify": "^3.0.0",
+        "stream-http": "^3.2.0",
+        "url": "^0.11.0"
+    },
+    "browser": {
+        "crypto": false,
+        "fs": false,
+        "path": false,
+        "os": false
+    }
+}
